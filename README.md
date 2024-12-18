@@ -11,13 +11,13 @@
 
 ## 一、GitHub Actions使用方法
 - 项目地址: https://github.com/amclubs/am-check-in
-### 复制仓库代码
+### ① 复制仓库代码
 1. 把当前github的项目能过 use this template 复制创建到你的创建里。
-### 设置 GitHub Actions 变量
+### ② 设置 GitHub Actions 变量
 1. Settings -> secrets and variables -> Actions -> Secrets -> New repository secrets
 2. 设置对应的变量参数 DOMAIN、USERNAME、PASSWORD （详情参数看下面变量说明）
 3. (可选)设置TG通知参数 TG_TOKEN、TG_ID （详情参数看下面变量说明）
-### 设置定时任务时间
+### ③ 设置定时任务时间
 1. 进入代码.github/workflows -> check-in-job.yml 
 2. 修改定时任务时间 cron (推荐修改成其它时间)
 ~~~
@@ -30,16 +30,20 @@ on:
 ## 二、Cloudflare使用方法
 - 项目代码:  https://github.com/amclubs/am-check-in/_worker.js
 - 示例项目地址: `jc.amclubs.workers.dev`；
-### 检查TG通知是否配置成功
+### ① 登录CF帐号，创建对应Workers & Pages项目，把 [_worker.js](https://github.com/amclubs/am-check-in/_worker.js) 代码部署上去
+### ② 设置 CF 变量
+1. 设置对应的变量参数 DOMAIN、USERNAME、PASSWORD （详情参数看下面变量说明）
+2. (可选)设置TG通知参数 TG_TOKEN、TG_ID （详情参数看下面变量说明）
+### ③ 检查TG通知是否配置成功
 - 访问`https://jc.amclubs.workers.dev/tg`；
-### 手动签到
+### ④ 手动签到
 1. 示例TOKEN变量值: `auto`
 2. 访问`https://jc.amclubs.workers.dev/auto`；
-### 设置自动签到
+### ⑤ 设置自动签到
 1. **设置** > **触发事件** > **＋添加** > **Cron 触发器**；
 2. **一周中的某一天** > **每天** > **00:00**(推荐修改成其它时间) > **添加** 即可；
 
-## 变量说明
+## 三、变量说明
 | 变量名 | 示例 | 必填 | 备注 | 
 |--|--|--|--|
 | `DOMAIN` | `xxx.com` |✅| 机场域名 |
@@ -49,7 +53,7 @@ on:
 | `TG_TOKEN` | `6901234567:XXXXXXXXXX0qExxxhHxxbXXX` |❌| 发送TG通知机器人的token | 
 | `TG_ID` | `6901234567` |❌| 接收TG通知的账户ID | 
 
-## 三、Telegram获取token 和chat_id 的方式
+## 四、Telegram获取token 和chat_id 的方式
 ### 1、加入 BotFather 机器人
 点击网址https://t.me/BotFather ，打开与它的聊天界面。
 
