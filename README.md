@@ -105,7 +105,7 @@ curl -s -X POST https://api.telegram.org/bot{token}/sendMessage -d chat_id={chat
 Telegrame客户端中的acmlubs_bot收到”Hello World”，就成功了！
 
 
-![check-in](check-in.jpg)
+![check-in](https://raw.githubusercontent.com/amclubs/am-check-in/main/check-in.jpg)
 
  # 
  <center><details><summary><strong> [点击展开] 赞赏支持 ~🧧</strong></summary>
