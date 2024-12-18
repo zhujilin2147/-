@@ -1,5 +1,5 @@
 # [am-check-in](https://github.com/amclubs/am-check-in)
-这是一个用来机场自动签到免费领取流量的自动脚本，一份代码支持多种运行环境，支持 Cloudflare Workers 和 Pages平台，支持GitHub Actions 的自动签到脚本，释放你的双手出去City Walk
+这是一个用来机场自动签到免费领取流量的自动脚本，一份代码支持多种运行环境，支持GitHub Actions、支持 Cloudflare Workers 和 Pages平台 的自动签到脚本，释放你的双手出去City Walk
 
 #
 ▶️ **新人[YouTube](https://youtube.com/@AM_CLUB)** 需要您的支持，请务必帮我**点赞**、**关注**、**打开小铃铛**，***十分感谢！！！*** ✅
