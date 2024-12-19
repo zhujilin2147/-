@@ -7,7 +7,7 @@
 </br>✅**解锁更多技术请点击进入 YouTube频道[【@AM_CLUB】](https://youtube.com/@AM_CLUB) 、[【个人博客】](https://am.809098.xyz)** 、TG群[【AM科技 | 分享交流群】](https://t.me/AM_CLUBS) 、获取免费节点[【进群发送关键字: 订阅】](https://t.me/AM_CLUBS)
 
 #
-- [部署视频教程](https://youtu.be/zkGGklEaO2I)
+- [部署视频教程](https://youtu.be/b7AI447ZnuA)
 
 ## 一、GitHub Actions使用方法
 - 项目地址: https://github.com/amclubs/am-check-in
